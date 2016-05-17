@@ -26,6 +26,7 @@ What would you lke todo:
 def askForNext():
   shouldContinue = input("""
 Want another try? 
+(0 to exit, any other number to continue)""")
 """)
 
   if shouldContinue:
