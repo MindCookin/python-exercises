@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-F = input("Gimme Fahrenheit: ")
+fahrenheit = input("Gimme Fahrenheit: ")
 
-print (F-32) * 5 / 9
-print (F-32) / 1.8000
+print (fahrenheit-32) * 5 / 9
+print (fahrenheit-32) / 1.8000
