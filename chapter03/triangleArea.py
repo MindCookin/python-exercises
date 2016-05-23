@@ -13,5 +13,8 @@ def substractVectors(a, b):
 def normalize(x, y):
   return math.sqrt(x**2 + y**2)
 
-print normalize(*xy)
-print normalize(*x2y2)
+def distance(a, b):
+  subs = substractVectors(a, b)
+  return normalize(subs[0], subs[1])
+
+print distance(xy, x2y2)
